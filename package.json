@@ -1,0 +1,37 @@
+{
+	"name": "equations-discretization",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"mathjs": "^11.1.0",
+		"mathjs-simple-integral": "^0.1.1",
+		"react": "^16.14.0",
+		"react-chartjs-2": "^4.3.1",
+		"react-dom": "^16.14.0",
+		"react-scripts": "5.0.1",
+		"react-vis": "^1.11.7"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"eject": "react-scripts eject"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
+}
